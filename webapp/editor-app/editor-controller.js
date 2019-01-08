@@ -20,7 +20,7 @@
 
 angular.module('activitiModeler')
 .controller('EditorUnsavedChangesPopupCrtl', ['$rootScope', '$scope', '$http', '$location', '$window', function ($rootScope, $scope, $http, $location, $window) {
-   
+
 	$scope.ok = function () {
 		if ($scope.handleResponseFunction) {
 			$scope.handleResponseFunction(true);

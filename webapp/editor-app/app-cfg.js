@@ -21,5 +21,5 @@
 var ACTIVITI = ACTIVITI || {};
 
 ACTIVITI.CONFIG = {
-	'contextRoot' : '/~RogersMac/activiti/resources',
+	'contextRoot' : '/流程大师/acitvity/resources',
 };

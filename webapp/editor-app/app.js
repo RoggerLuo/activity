@@ -56,7 +56,9 @@ activitiModeler
   }])
   .run(['$rootScope', '$timeout', '$modal', '$translate', '$location', '$window', '$http', '$q',
         function($rootScope, $timeout, $modal, $translate, $location, $window, $http, $q) {
-	  
+
+
+            
 			  $rootScope.config = ACTIVITI.CONFIG;
 			  
 			  $rootScope.editorInitialized = false;

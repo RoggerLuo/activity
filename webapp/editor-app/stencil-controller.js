@@ -21,6 +21,13 @@
 angular.module('activitiModeler')
     .controller('StencilController', ['$rootScope', '$scope', '$http', '$modal', '$timeout', function ($rootScope, $scope, $http, $modal, $timeout) {
 
+        window.test = function(){
+            var services = { '$scope' : $scope, '$rootScope' : $rootScope, '$http' : $http, '$modal' : $modal, };
+            // KISBPM.TOOLBAR.ACTIONS.undo(services);
+            KISBPM.TOOLBAR.ACTIONS.zoomOut(services)
+        }
+    
+
         // Property window toggle state
         $scope.propertyWindowState = {'collapsed': false};
 
